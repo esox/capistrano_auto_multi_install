@@ -1,0 +1,12 @@
+"en":
+    apache_only_supported: "At the moment only Apache is supported"
+    application_url: "Application URL"
+    apache_conf_directory: "Directory where Apache finds the websites config"
+    passenger_or_mongrel: "Does your application use Passenger or Mongrel"
+    mongrel_local_conf: "Where you want the '.yml' config file to be?"
+    mongrel_cluster: "Is it a Mongrel Cluster?"
+    single_mongrel_selected: "Single Mongrel Instance selected"
+    mongrel_port: "Which port would you like to use?"
+    cluster_mongrel_selected: "Mongrel Cluster selected"
+    number_of_mongrel_instance: "How many instances of Mongrel do you want"
+    mongrel_multiple_port: "Which port would you like to use? The others ports will be the ones following"

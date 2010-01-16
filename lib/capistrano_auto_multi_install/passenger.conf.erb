@@ -1,0 +1,10 @@
+<Virtualhost *:80>
+   DocumentRoot <%=document_root%> 
+   ServerName <%=server_name%>  
+   PassengerTempDir <%=passenger_tmp%>  
+   <Directory  <%=document_root%> > 
+      AllowOverride all 
+      Order allow,deny 
+      Allow from all 
+   </Directory> 
+</Virtualhost>

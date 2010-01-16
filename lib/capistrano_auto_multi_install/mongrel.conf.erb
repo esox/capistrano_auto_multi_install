@@ -1,0 +1,9 @@
+port: "#{port}"
+cwd: "#{base_directory}"
+log_file: log/mongrel
+environment: production
+address: 127.0.0.1
+pid_file: log/mongrel.pid
+servers #{number_of_instances}
+docroot: public
+user: #{web_user}
